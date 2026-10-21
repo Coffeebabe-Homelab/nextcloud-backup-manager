@@ -11,7 +11,7 @@ pipeline {
         DEPLOY_HOST = 'staging-deploy'          // SSH alias, see step 5
         STG_DEPLOY_PATH = '~/staging/backup-manager'
         PRD_DEPLOY_PATH = '/opt/backup'
-        REPOSITORY = 'git@github.com:Pedro-Appel/nextcloud-backup-manager.git'
+        REPOSITORY = 'git@github.com:Coffeebabe-Homelab/nextcloud-backup-manager.git'
     }
 
     stages {
